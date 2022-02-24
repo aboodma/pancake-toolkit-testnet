@@ -14,8 +14,8 @@ interface Props {
 }
 
 const blink = keyframes`
-  0%,  100% { transform: scaleY(1); } 
-  50% { transform:  scaleY(0.1); } 
+  0%,  100% { transform: scaleY(1); }
+  50% { transform:  scaleY(0.1); }
 `;
 
 const StyledLink = styled(Link)`
@@ -30,7 +30,7 @@ const StyledLink = styled(Link)`
   .desktop-icon {
     width: 212px;
     margin-left: 16px;
-    height: 28px: 
+    height: 50px;
     display: none;
     ${({ theme }) => theme.mediaQueries.nav} {
       display: block;
